@@ -6,7 +6,6 @@ import {ExerciseCard} from '@/components/ExerciseCard.jsx';
 import {exerciseOptions, fetchData} from '@/utils/fetchData';
 
 export const Exercises = ({exercises, setExercises, bodyPart}) => {
-	console.log(exercises)
 	const [currentPage, setCurrentPage] = useState(1);
 	const exercisesPerPage = 9;
 
@@ -24,8 +23,6 @@ export const Exercises = ({exercises, setExercises, bodyPart}) => {
 		const fetchExercisesData = async () => {
 			let exercisesData = [];
 			
-			console.log(bodyPart)
-
 			if(bodyPart === 'all') {
 				exercisesData = await fetchData(
 					'https://exercisedb.p.rapidapi.com/exercises',
