@@ -1,4 +1,3 @@
-import {useState} from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import {Box} from '@mui/material';
 import './App.css';
@@ -9,8 +8,6 @@ import Navbar from './components/Navbar';
 import {Footer} from './components/Footer';
 
 function App() {
-	// const [count, setCount] = useState(0)
-
 	return (
 		<Box
 			width="400px"

@@ -22,7 +22,7 @@ export const HeroBanner = () => {
 				fontSize="22px"
 				mb={3}
 				href="#exercises">
-				Check out the most effective football exercises
+				Check out the most effective exercises for your body
 			</Typography>
 			<Button
 				variant="contained"
