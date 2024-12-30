@@ -3,6 +3,8 @@ import {Stack} from '@mui/material';
 import Logo from '@/assets/images/Logo.png';
 
 const Navbar = () => {
+	const randomNumber = Math.floor(Math.random() * 1325);
+
 	return (
 		<Stack
 			direction="row"
@@ -32,11 +34,11 @@ const Navbar = () => {
 					to="/">
 					Home
 				</Link>
-				<Link
+				{/* <Link
 					className="nav-link"
-					to="/exercise/:id">
+					to={`/exercise/${randomNumber}`}>
 					Exercises
-				</Link>
+				</Link> */}
 			</Stack>
 		</Stack>
 	);

@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom';
 import {Button, Stack, Typography} from '@mui/material';
 export const ExerciseCard = ({exercise}) => {
-	console.log({exercise});
 	return (
 		<Link
 			className="exercise-card"
